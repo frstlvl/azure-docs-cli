@@ -508,6 +508,7 @@ commands:
 - az_maintenance
 - az_managed-cassandra
 - az_managedapp
+- az_managedservices
 - az_managementpartner
 - az_mdp
 - az_mesh

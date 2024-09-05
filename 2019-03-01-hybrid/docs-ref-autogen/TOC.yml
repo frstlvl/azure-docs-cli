@@ -5137,9 +5137,23 @@
       displayName: az identity
       items: []
   - name: Managed Services
-    uid: sp-Managed_Services
-    displayName: Managed Services
-    items: []
+    items:
+    - name: Commands
+      uid: sp-Managed_Services
+      displayName: Managed Services
+    - name: managedservices
+      items:
+      - name: Commands
+        uid: az_managedservices
+        displayName: az managedservices
+      - name: assignment
+        uid: az_managedservices_assignment
+        displayName: az managedservices assignment
+        items: []
+      - name: definition
+        uid: az_managedservices_definition
+        displayName: az managedservices definition
+        items: []
   - name: Maps
     uid: sp-Maps
     displayName: Maps

@@ -137,66 +137,11 @@ directCommands:
     name: --definition
     summary: |-
       Guid of the registration definition.
-- uid: az_managedservices_definition_wait
-  name: az managedservices definition wait
-  summary: |-
-    Place the CLI in a waiting state until a condition is met.
-  status: GA
-  sourceType: Core
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/managedservices/_help.py
-  syntax: >-
-    az managedservices definition wait --definition
-                                       --scope
-                                       [--created]
-                                       [--custom]
-                                       [--deleted]
-                                       [--exists]
-                                       [--interval]
-                                       [--timeout]
-                                       [--updated]
-  requiredParameters:
-  - isRequired: true
-    name: --definition
-    summary: |-
-      Guid of the registration definition.
-  - isRequired: true
-    name: --scope
-    summary: |-
-      Scope of the resource.
-  optionalParameters:
-  - name: --created
-    defaultValue: "False"
-    summary: |-
-      Wait until created with 'provisioningState' at 'Succeeded'.
-  - name: --custom
-    summary: |-
-      Wait until the condition satisfies a custom JMESPath query. E.g. provisioningState!='InProgress', instanceView.statuses[?code=='PowerState/running'].
-  - name: --deleted
-    defaultValue: "False"
-    summary: |-
-      Wait until deleted.
-  - name: --exists
-    defaultValue: "False"
-    summary: |-
-      Wait until the resource exists.
-  - name: --interval
-    defaultValue: "30"
-    summary: |-
-      Polling interval in seconds.
-  - name: --timeout
-    defaultValue: "3600"
-    summary: |-
-      Maximum wait in seconds.
-  - name: --updated
-    defaultValue: "False"
-    summary: |-
-      Wait until updated with provisioningState at 'Succeeded'.
 commands:
 - az_managedservices_definition_create
 - az_managedservices_definition_delete
 - az_managedservices_definition_list
 - az_managedservices_definition_show
-- az_managedservices_definition_wait
 globalParameters:
 - name: --debug
   summary: |-

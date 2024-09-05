@@ -11,13 +11,11 @@ commands:
 - az_managedservices_assignment_delete
 - az_managedservices_assignment_list
 - az_managedservices_assignment_show
-- az_managedservices_assignment_wait
 - az_managedservices_definition
 - az_managedservices_definition_create
 - az_managedservices_definition_delete
 - az_managedservices_definition_list
 - az_managedservices_definition_show
-- az_managedservices_definition_wait
 globalParameters:
 - name: --debug
   summary: |-
